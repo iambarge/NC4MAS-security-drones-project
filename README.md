@@ -8,11 +8,28 @@ The aim of this project is to find a possible solution to the Interactive Survei
 ### Project Organization
 ```
 .
-├── data/                                       : Contains all coins images
-├── src/                                        : Contains report images
-├── CMakeLists.txt                              : CMake instructions list
-├── coins.cpp                                   : Main routine
-├── coins_toolbox.cpp                           : Coin class (/w Classification Code)
-├── coins_toolbox.hpp                           : Coin class Header file
-└── README.md                                   : Project Report 
+├── Data/                                       : Contains precompiled environments
+├── src/                                        : Contains media resources
+├── Camera.m                                    : Class defining a UAV camera object
+├── Environment.m                               : Class defining the environment
+├── BLP.m                                       : Routine to test the Binary Linear Programming solution to the patrolling problem
+├── Optimal_zoom.m                              : Routine to test the smart zoom feature
+├── SEBS.m                                      : Routine to test the distributed approach to the patrolling problem
+├── Simulation.m                                : Routine to test the complete system on large scale environments
+├── Simulation_preprocessing.m                  : Defines the Simulation parameters
+├── Tracking_Control.m                          : Routine to test the UAV movement system during the tracking task
+├── Tracking_indices.m                          : Routine to the tracking robustness
+├── control.slx                                 : Simulink scheme for the UAV movement control system
+├── envCell.m                                   : Function for environment cellularization
+├── envEdges.m                                  : Function defining the allowed movement in the cellularized environment
+├── getAllCycles.m                              : Function returning all possible simple cycles given a set of edges from a connected graph
+├── getPID.p                                    : Private function returning the PID gains according to the Bode's method
+├── getPID.m                                    : Header of getPID.p
+├── kalman.m                                    : Function implementing the one step ahead Kalman filter
+├── remapEdges.m                                : Function returning the set of edges associated to the connected components of a graph
+├── splitCycles.m                               : Function splitting a cycle in all its sub-paths
+├── bargellesi_et_al_2020.pdf                   : Project Report
+└── README.md                                   : Project Summary 
 ```
+
+## Conclusions
