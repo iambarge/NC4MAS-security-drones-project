@@ -5,6 +5,19 @@ Multi-Camera surveillance systems have become a modern trend in many fields both
 ### Project Abstract
 The aim of this project is to find a possible solution to the Interactive Surveillance problem using multiple UAV mounted cameras, from a top down perspective, in known environments. The coordinated patrolling problem is approached in a distributed fashion using a Bayesian-based Greedy algorithm with State Exchange. The results of this strategy are compared in restricted environments with the optimal paths obtained through linear programming. Furthermore, the overall performance is evaluated on large scale environments, where the optimal problem becomes infeasible. Kalman’s theory is employed to implement a smart target tracking algorithm with camera zoom control optimized for target containment and information loss minimization. Several simulations are performed tracking a target with different trajectory models and varying the sampling frequency of the filter and the accuracy of the detection. Finally, the robustness of such an algorithm to measurement errors and camera failures is put to the test.
 
+For the technical results complete dissertation and the ditailed description of the adopted strategies you can refer to the [Project Report :memo:](bargellesi_et_al_2020.pdf).
+
+### Working Simulation
+The results achieved with this project can be clearly appreciated in the following simulation. Indeed, the Interactive Sourveillance task performed by our UAV mounted camera system can be divided in 4 steps:
+1. All the agents (:full_moon:) of the camera network patroll the environment sharing information to autonomously select the most suitable direction to follow
+2. An intruder (:red_circle:) enters the environment and is soon detected from one of our UAV cameras (:full_moon: -> :large_blue_circle:)
+3. The camera begins the tracking task adjusting the zoom (:black_square_button: size) managing the tradeoff between tracking robustness and information gathering
+4. On target loss (:red_circle: exits :black_square_button:) the tracking camera returns to the tracking task (:large_blue_circle: -> :full_moon:), asking for the support of other UAVs in order to maximize the probability of tracking recovery
+
+<p align="center">
+  <img src="src/tracking.gif" width=500>
+</p>
+
 ### Project Organization
 ```
 .
@@ -31,5 +44,3 @@ The aim of this project is to find a possible solution to the Interactive Survei
 ├── bargellesi_et_al_2020.pdf                   : Project Report
 └── README.md                                   : Project Summary 
 ```
-
-## Conclusions
