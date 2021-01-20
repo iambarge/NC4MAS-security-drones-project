@@ -6,7 +6,7 @@ clc
 %% Coordinated Surveillance
 N = 200;                    % duration
 Npre = 500;                 % duration transient
-Symulation_preprocessing;   % load data
+Simulation_preprocessing;   % load data
 
 % SEBS Initialization
 Np = NoC;
