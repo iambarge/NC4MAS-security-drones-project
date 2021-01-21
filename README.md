@@ -1,5 +1,5 @@
 # A Distributed Approach to Interactive Surveillance Using a UAV Mounted Camera Network
-
+<img align="left" width="250" src="src/home-security-drone.jpg">
 Multi-Camera surveillance systems have become a modern trend in many fields both for research and for the industry. These systems are being increasingly used to enhance safety and security in public places such as parks, airports, and banks, as well as in restricted areas like government and military facilities. Furthermore, the possibility to mount cameras on Unmanned Aerial Vehicles (UAVs) extends the capabilities of these surveillance systems to a whole new level. Indeed, the employment of flying cameras allow for a substantial reconfigurability of the network and enable for new perspectives on the environment and wider coverage.
 
 ### Project Abstract
@@ -44,3 +44,6 @@ The results achieved with this project can be clearly appreciated in the followi
 ├── bargellesi_et_al_2020.pdf                   : Project Report
 └── README.md                                   : Project Summary 
 ```
+
+#
+A work in collaboration with Luca Facin and Lorenzo Marchini.
