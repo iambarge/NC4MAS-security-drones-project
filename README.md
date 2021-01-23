@@ -46,4 +46,4 @@ The results achieved with this project can be clearly appreciated in the followi
 ```
 
 #
-A work in collaboration with Luca Facin and Lorenzo Marchini.
+_A work in collaboration with Luca Facin and Lorenzo Marchini._
