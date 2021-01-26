@@ -12,7 +12,7 @@ The results achieved with this project can be clearly appreciated in the followi
 1. All the agents (:full_moon:) of the camera network patroll the environment sharing information to autonomously select the most suitable direction to follow
 2. An intruder (:red_circle:) enters the environment and it is soon detected from one of our UAV cameras (:full_moon: -> :large_blue_circle:)
 3. The camera begins the tracking task adjusting the zoom (:black_square_button: size) managing the tradeoff between tracking robustness and information gathering
-4. On target loss (:red_circle: exits :black_square_button:) the tracking camera returns to the tracking task (:large_blue_circle: -> :full_moon:), asking for the support of other UAVs in order to maximize the probability of tracking recovery
+4. On target loss the tracking camera returns to the tracking task (:large_blue_circle: -> :full_moon:), asking for the support of other UAVs in order to maximize the probability of tracking recovery
 
 <p align="center">
   <img src="src/tracking.gif" width=500>
