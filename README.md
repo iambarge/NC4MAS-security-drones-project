@@ -10,7 +10,7 @@ For the technical results complete dissertation and the detailed description of 
 ### Working Simulation
 The results achieved with this project can be clearly appreciated in the following simulation. Indeed, the Interactive Sourveillance task performed by our UAV mounted camera system can be divided in 4 steps:
 1. All the agents (:full_moon:) of the camera network patroll the environment sharing information to autonomously select the most suitable direction to follow
-2. An intruder (:red_circle:) enters the environment and is soon detected from one of our UAV cameras (:full_moon: -> :large_blue_circle:)
+2. An intruder (:red_circle:) enters the environment and it is soon detected from one of our UAV cameras (:full_moon: -> :large_blue_circle:)
 3. The camera begins the tracking task adjusting the zoom (:black_square_button: size) managing the tradeoff between tracking robustness and information gathering
 4. On target loss (:red_circle: exits :black_square_button:) the tracking camera returns to the tracking task (:large_blue_circle: -> :full_moon:), asking for the support of other UAVs in order to maximize the probability of tracking recovery
 
