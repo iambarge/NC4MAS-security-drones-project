@@ -46,4 +46,4 @@ The results achieved with this project can be clearly appreciated in the followi
 ```
 
 #
-_A work in collaboration with [Luca Facin!](https://github.com/lucafacin) and Lorenzo Marchini._
+_A work in collaboration with [Luca Facin](https://github.com/lucafacin) and Lorenzo Marchini._
