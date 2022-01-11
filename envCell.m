@@ -1,3 +1,9 @@
+% Copyright (c) 2020, Nicolò Bargellesi, Luca Facin & Lorenzo Marchini
+%
+% This source code is licensed under the MIT-style license found in the
+% LICENSE file in the root directory of this source tree.
+%
+
 function [V,Vm,Vmap] = envCell(B,NFZ,res)
 %ENVCELL Given the environment borders and No Fly Zones returns a
 %  cellularized version of the environment with the desired resolution.
