@@ -1,3 +1,9 @@
+% Copyright (c) 2020, Nicolò Bargellesi, Luca Facin & Lorenzo Marchini
+%
+% This source code is licensed under the MIT-style license found in the
+% LICENSE file in the root directory of this source tree.
+%
+
 function [cycles] = getAllCycles(E,V)
 %GETALLCYCLES Return a matrix whos columns correspond to all possible
 %  simple cycles given a set of edges from a CONNECTED graph. 
