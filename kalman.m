@@ -1,3 +1,9 @@
+% Copyright (c) 2020, Nicolò Bargellesi, Luca Facin & Lorenzo Marchini
+%
+% This source code is licensed under the MIT-style license found in the
+% LICENSE file in the root directory of this source tree.
+%
+
 function [x_pred, P_pred] = kalman(A,H,Q,R,y,x,P)
 %KALMAN Kalman Filter one step ahead predictor
 
