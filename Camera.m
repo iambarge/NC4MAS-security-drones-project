@@ -1,3 +1,9 @@
+% Copyright (c) 2019, Nicolò Bargellesi, Luca Facin & Lorenzo Marchini
+%
+% This source code is licensed under the MIT-style license found in the
+% LICENSE file in the root directory of this source tree.
+%
+
 classdef Camera < handle
    properties
       Task  % Patrolling(0)/Tracking(1)
