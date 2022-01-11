@@ -1,3 +1,9 @@
+% Copyright (c) 2020, Nicolò Bargellesi, Luca Facin & Lorenzo Marchini
+%
+% This source code is licensed under the MIT-style license found in the
+% LICENSE file in the root directory of this source tree.
+%
+
 %% Define Environment
 % Borders
 B1 = [0 0; 0 9; 7 9; 7 6; 3 6; 3 3; 7 3; 7 0];      % C Environment
