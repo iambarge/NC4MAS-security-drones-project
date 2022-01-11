@@ -1,3 +1,9 @@
+% Copyright (c) 2019, Nicolò Bargellesi, Luca Facin & Lorenzo Marchini
+%
+% This source code is licensed under the MIT-style license found in the
+% LICENSE file in the root directory of this source tree.
+%
+
 %% Initial Conditions
 %rng(1)      % Seed for reproducibility
 
